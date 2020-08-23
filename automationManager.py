@@ -22,12 +22,16 @@ class AutomationManager:
         pyautogui.moveTo(900,300)  # move mouse to the window
         pyautogui.dragTo()  # focus the window
         pyautogui.click()  # simulate left click
-        pyautogui.typewrite("go run *.go \n")  # type something
+        # pyautogui.typewrite("go run *.go \n")  # type something
+        pyautogui.press('up')
+        pyautogui.press('enter')
         
         pyautogui.moveTo(100,300)  # move mouse to the window
         pyautogui.dragTo()  # focus the window
         pyautogui.click()  # simulate left click
-        pyautogui.typewrite("go run *.go \n")  # type something
+        # pyautogui.typewrite("go run *.go \n")  # type something
+        pyautogui.press('up')
+        pyautogui.press('enter')
         time.sleep(1)
 
         
